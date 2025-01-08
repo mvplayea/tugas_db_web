@@ -1,1 +1,7 @@
-<h1>is this admin</h1>
+<script>
+  import { onMount } from 'svelte';
+
+  onMount(() => {
+    window.location.href = '/admin/mahasiswa';
+  });
+</script>
